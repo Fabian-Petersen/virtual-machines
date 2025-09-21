@@ -1,0 +1,14 @@
+Vagrant.configure("2") do |config|
+
+config.vm.box = "spox/ubuntu-arm"
+config.vm.box_version = "1.0.0"
+
+# Private network with static IP
+config.vm.network "private_network", ip: "192.168.50.11"
+
+config.vm.provider "vmware_desktop" do |vmware|
+  vmware.gui = true
+  vmware.allowlist_verified = true
+ end
+end
+

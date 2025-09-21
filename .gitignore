@@ -1,0 +1,7 @@
+# Vagrant local files
+.vagrant/
+*.log
+._*
+
+# Optional: ignore local provisioning scripts cache or temp files
+provision_docker_jenkins.sh~  
