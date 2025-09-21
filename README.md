@@ -1,7 +1,4 @@
-# virtual-machines
-Configuration Files for virtual machines e.g. vagrant files and automation scripts
-
-# virtual-machines
+virtual-machines
 
 Configuration Files for virtual machines e.g. vagrant files and automation scripts
 Issues Creating the VM
